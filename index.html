@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAO SAO MINUTOS</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            height: 100%;
+        }
+
+        form{
+            width: 300px;
+            margin: 200px auto;
+            text-align: center;
+        }
+
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+        }
+
+
+        
+    </style>
+
+</head>
+<body>
+    
+
+    <form>
+
+        <font face="Calibri ">  ____ e lettera
+            
+        </font> <br />
+        <font face="Calibri ">  (considerare il ritmo)
+            
+        </font> <br />
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" onclick="logar(); return false">
+
+    </form>
+
+
+    <script>
+
+
+        function logar(){
+
+            var senha = document.getElementById('senha').value;
+
+            if(senha == "beyond"){
+                alert('Sucesso');
+                location.href = "https://imgur.com/a/1KY66yu";
+            }else{
+                alert('line and letter');
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
